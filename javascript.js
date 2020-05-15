@@ -8,40 +8,25 @@ var pizzaFlavour = [
   var pizzaSize = ["Regular", "Medium", "Large"];
   var pizzaCrust = ["Thin crust", "Thick crust", "Deep crust", "Stuffed crust"];
   var pizzaTopping = ["Pepperoni", "Bacon", "Sausage", "mushrooms", "Onions"];
-  
-  // calling functions
   function getFlavour() {
-    // var flavour = document.getElementById("pizzaflavour").value;
     var flavour = $("#pizzaflavour :selected").val();
     return parseInt(flavour);
   }
   
   function getSize() {
-    // var size = document.getElementById("pizzasize").value;
     var size = $("#pizzasize :selected").val();
     return parseInt(size);
   }
   
   function getCrust() {
-    // var crust = document.getElementById("pizzacrust").value;
     var crust = $("#pizzacrust :selected").val();
     return parseInt(crust);
   }
-  /* 
-  function getCrast() {
-    // var crast = document.getElementsByName("pizza").name;
-    var crast = $("#pizza :selected").val();
-    return toString(crast);
-  } */
-  
   function getTopping() {
-    // var topping = document.getElementById("pizzatopping").value;
     var topping = $("#pizzatopping :selected").val();
     return parseInt(topping);
   }
-  
   function getNumber() {
-    // var number = document.getElementById("number").value;
     var number = $("#number").val();
     return parseInt(number);
   }
