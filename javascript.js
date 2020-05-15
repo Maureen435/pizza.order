@@ -68,17 +68,21 @@ var pizzaFlavour = [
     parseInt(topping.val())) *
     parseInt(number.val());
     alert(
+      "You've ordered "  +
       number.val() +
       " "  +
+      " pizza's, "  +
       flavour.html() +
-      " "   + 
+      " "   +
       size.html() +
       " "  +
       crust.html() +
-      "  "  + 
+      "  "  +
       topping.html() +
       "  "  +
+      " which amounts to Ksh. " +
         results  +
+        "  Thanks for shopping with us  "
     );
   }
   $(document).ready(function() {
