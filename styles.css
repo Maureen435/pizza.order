@@ -30,7 +30,10 @@
   }
   
   .myform {
-    padding: 16px 20px;
+    padding: 12px 14px;
+    background-image: url("https://bit.ly/3dLBRrh");
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
   }
   .footer {
     background-color:burlywood;
