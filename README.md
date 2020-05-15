@@ -1,13 +1,11 @@
-elani Studio
-Author
+### Pizza Order
+#### Author
 Maureen Chepkemoi
 
-Description
-This application deals with design,product management and development
+### Description
 
-Behaviour Driven Development(BDD)
-Landing Page
-Icons: "Click on the icons to display their descriptions." Descriptions: "Click on the descriptions again to hide them and to display the icons."
+This application deals with pizza order. You make your order and request delivery.
+
 ### Contact Us Section
 
 INPUT: "Fill in the pizza's of your choice" OUTPUT: "Sum and amount of pizza costs, enter in your details and the delivery charges"
