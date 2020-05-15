@@ -30,25 +30,6 @@ var pizzaFlavour = [
     var number = $("#number").val();
     return parseInt(number);
   }
-  
-  // function getAmount() {
-  //   var results =
-  //     (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
-  //   alert(
-  //     "You've ordered " +
-  //       getNumber("") +
-  //       " pizza's," +
-  //       " of " +
-  //       getCrast("") +
-  //       "which amounts to Ksh. " +
-  //       results +
-  //       " Thanks for your order,welcome again!"
-  //   );
-  //   prompt("Enter your location");
-  //   prompt("Enter your name");
-  //   prompt("Enter your phone number");
-  //   alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
-  // }
   function getAmount(flavour, size, crust, topping, number) {
     var results =
       (parseInt(flavour.val()) +
@@ -77,7 +58,7 @@ var pizzaFlavour = [
     prompt("Enter your location");
     prompt("Enter your name");
     prompt("Enter your phone number");
-    alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
+    alert("We have receive your order and our delivery fee is ksh.200");
   }
   function getPick(flavour, size, crust, topping, number) {
     var results =
