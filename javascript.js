@@ -1,4 +1,3 @@
-// // declaring variables
 var pizzaFlavour = [
     "Berry",
     "Butternut Squash",
@@ -8,7 +7,7 @@ var pizzaFlavour = [
   ];
   var pizzaSize = ["Regular", "Medium", "Large"];
   var pizzaCrust = ["Thin crust", "Thick crust", "Deep crust", "Stuffed crust"];
-  var pizzaTopping = ["Onion", "Mushroom", "bacon", "black olives"];
+  var pizzaTopping = ["Pepperoni", "Bacon", "Sausage", "mushrooms", "Onions"];
   
   // calling functions
   function getFlavour() {
